@@ -1,0 +1,127 @@
+*{ 
+    font-family: cursive;
+
+}
+
+/* Tabla de asignaturas */
+.tabla1 {
+    background: darkgrey;
+    width: 890px;
+    border: 1px solid #fb6b5c;
+    border-collapse: collapse;
+}
+
+
+.tabla1 td{
+    border: 1px solid #fb6b5c;
+    padding-left: 10px;
+}
+
+.tabla1 tr:hover {
+    background: #dfdddd;
+}
+
+
+.botonAsig {
+    display: block;
+    text-decoration: none;
+    padding-left:2px;
+    color: #000000;
+     
+}
+
+.botonAsig:hover{
+    display: block;
+    background: #dfdddd;
+    border: 1px solid #dfdddd;
+
+}
+/*=============================================================*/
+
+hr {
+    margin-top: 30px;
+    border: 1px solid #000
+}
+
+h2 {
+    margin-top: inherit;
+    height: 50%
+    width: 100%
+}
+
+/* Tabla del Horario */
+.horario {
+    border: 3px solid #000;
+    border-collapse: collapse;
+    text-align:center;
+    
+}
+
+.horario tr {
+    align-items: center;
+    
+}
+
+.col td{
+    background: darkgrey;
+    
+    
+}
+
+.horario td{
+    padding: 5px;
+    width: 111px;
+    border-left: 3px solid #000;
+    
+}
+
+.horario th {
+    background: darkgrey;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.horario td:nth-child(odd){
+    background: #E9D4FD;
+}
+
+.horario td:nth-child(odd):hover{
+    background: #CE66E3;
+}
+
+.horario td:nth-child(even){
+    background: #D7F2FD;
+}
+
+.horario td:nth-child(even):hover{
+    background: #70AEFF;
+}
+
+.horario a {
+    background: darkgrey;
+    text-decoration: none;
+    border: 1px solid #F99072;
+}
+
+/********************************************************/
+
+button a{
+    display:table;
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+    background: darkgrey;
+    text-decoration-color: black;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+button:hover{
+    border: 1px solid #FF6226;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}

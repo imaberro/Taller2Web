@@ -1,0 +1,99 @@
+*{
+    font-family: cursive;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+h2{
+    margin-left: 5%
+}
+
+table {
+    border: 2px solid #000;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.calendario {
+    border-collapse: collapse;
+}
+
+.calendario tr{
+    border-collapse: collapse;
+}
+
+.calendario a {
+    text-decoration: none;
+}
+
+
+.boton {
+    display: block;
+    text-decoration: none;
+    padding-left:2px;
+    color: #000000;
+     
+}
+
+.boton:hover{
+    display: block;
+    background: darkgrey;
+    border: 1px solid #FF6226;
+
+}
+
+/************************CALENDARIO************************************/
+.meses {
+    border-collapse: collapse;
+    text-align: center;
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.meses .festivo{
+    color:red;
+    text-decoration: underline 
+}
+
+.meses thead th {
+    border: 2px solid #000;
+    background: #69B1FF;
+    color: white;
+}
+
+.meses td {
+    border: 2px solid #000;
+}
+
+.meses tr:nth-child(odd){
+    background: darkgrey;
+}
+
+.meses tr:nth-child(even){
+    background: #E6E6DF;
+}
+
+button a{
+    display:table;
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+    background: darkgrey;
+    text-decoration-color: black;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+button:hover{
+    border: 1px solid #FF6226;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}

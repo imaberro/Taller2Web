@@ -1,0 +1,59 @@
+*{
+    font-family: cursive;
+}
+
+/** Modificaciones de las listas, para que no tengan tanta sangría **/
+.cursadas li{
+    list-style-type: none;
+}
+
+.asig{
+    margin-left: -20px;
+    color: #b57171;
+}
+
+.asig:hover{
+    background: darkgrey;
+}
+
+/** Modificaciones del botón para volver a la Ficha Personal **/
+button a{
+    display:table;
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+    background: darkgrey;
+    text-decoration-color: black;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+button:hover{
+    border: 1px solid #FF6226;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.descripcion1 p{
+    color: #2a9a2b;
+}
+
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
+
+table{
+    border: 2px solid black;
+    margin: 10px;
+    width: 35%;
+}
+
+.fAsig{
+    margin-left:10px;
+}
+
+.descripcion{
+    margin-left: 10px;
+}
